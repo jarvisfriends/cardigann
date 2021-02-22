@@ -3,14 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
-    "react-scripts": "1.0.0"
+    "react-scripts": "^1.0.0"
   },
   "dependencies": {
-    "bootswatch": "^3.3.7",
+    "bootswatch": "^3.4.1",
     "eventsource": "^0.2.1",
     "moment": "^2.15.1",
     "query-string": "^4.2.3",
-    "react": "^15.6.1",
+    "react": "^15.7.0",
     "react-bootstrap": "^0.31.0",
     "react-bootstrap-table": "^3.4.5",
     "react-copy-to-clipboard": "^5.0.0",

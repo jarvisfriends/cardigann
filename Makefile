@@ -32,6 +32,9 @@ server/static.go: $(WEBSRC)
 setup:
 	go get -u github.com/mjibson/esc
 	go get -u github.com/c4milo/github-release
+	#cd web; npm install react react-scripts react-dom bootswatch react-select
+	mkdir -p web/build
+	cd web&& npm install react bootswatch react-scripts; cd -
 
 install:
 	go install -ldflags="$(FLAGS)" $(PREFIX)
